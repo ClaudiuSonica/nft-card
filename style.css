@@ -1,0 +1,118 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.125rem;
+  background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container__ext {
+  width: 95%;
+  margin: 2em auto;
+}
+
+.container__int {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.3em;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px ;
+}
+
+.main__img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+  cursor: pointer;
+}
+
+.img:hover,
+.img:focus {
+  opacity: .2;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: white;
+  text-align: left;
+  padding: 1em 0;
+  cursor: pointer;
+}
+
+.text {
+  color: hsl(215, 32%, 27%);
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+.details,
+.eth,
+.clock {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.details {
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
+
+.eth {
+  font-weight: bolder;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock {
+  color: hsl(215, 32%, 27%);
+}
+
+.hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(215, 32%, 27%);
+  margin-bottom: 1em;
+}
+
+.credits {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  margin-right: 1em;
+}
+
+.credits p {
+  font-size: 1rem;
+  color: hsl(215, 32%, 27%);
+}
+
+.pointer__text {
+  color: white;
+  cursor: pointer;
+}
