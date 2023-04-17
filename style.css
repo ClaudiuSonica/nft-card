@@ -154,3 +154,15 @@ footer {
   color: white;
   cursor: pointer;
 }
+
+@media (min-width: 600px) {
+  .container__ext {
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
